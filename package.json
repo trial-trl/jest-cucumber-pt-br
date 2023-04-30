@@ -1,0 +1,39 @@
+{
+  "name": "jest-cucumber-pt-br",
+  "publishConfig": {
+    "tag": "latest"
+  },
+  "version": "1.0.0",
+  "description": "PT-BR wrapper for jest-cucumber.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "source": "index.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trial-trl/jest-cucumber-pt-br.git"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "build": "tsc --declaration index.ts"
+  },
+  "keywords": [
+    "react-hooks",
+    "hooks",
+    "react",
+    "utils",
+    "lib",
+    "persistent",
+    "localstorage"
+  ],
+  "author": "mlsm",
+  "devDependencies": {
+    "jest-cucumber": "^3.0.1",
+    "typescript": "^4.9.5"
+  }
+}
